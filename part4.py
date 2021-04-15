@@ -14,3 +14,7 @@ The area of the triangle is 12.0
 '''
 
 #start writing your code below
+integer_1 = int(input("Enter first integer here: "))
+integer_2 = int(input("Enter second integer here: "))
+
+print("If the first integer was the length of a base of a triangle, and the second the height of that triangle, this would be the triangle's area: ", (integer_1 * integer_2)/2)
